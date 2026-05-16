@@ -1,0 +1,41 @@
+@theme {
+  /* Brand */
+  --color-brand-primary: #C40001;
+  --color-brand-primary-dark: #77150C;
+  --color-brand-primary-light: #E31837;
+  --color-brand-secondary: #D7A748;
+  --color-brand-secondary-dark: #926C22;
+  --color-brand-secondary-light: #E7C071;
+  --color-brand-secondary-lightest: #FAEFE5;
+
+  /* Utility */
+  --color-utility-white: #FFFFFF;
+  --color-utility-gray: #F2F2F6;
+  --color-utility-dark: #01000B;
+
+  /* Functional */
+  --color-functional-error: #D14545;
+  --color-functional-error-bg: #FFE7E7;
+  --color-functional-success: #387F49;
+  --color-functional-success-bg: #D1FAE5;
+  --color-functional-warning: #B06000;
+  --color-functional-warning-bright: #E7B32E;
+  --color-functional-warning-bg: #FFEDD5;
+  --color-functional-placeholder: #71717A;
+  --color-functional-disabled: rgba(0, 0, 0, 0.55);
+  --color-functional-disabled-reversed: rgba(255, 255, 255, 0.51);
+
+  /* Opacity */
+  --color-opacity-black-4: rgba(0, 0, 0, 0.04);
+  --color-opacity-black-10: rgba(0, 0, 0, 0.1);
+  --color-opacity-black-30: rgba(0, 0, 0, 0.3);
+  --color-opacity-black-75: rgba(0, 0, 0, 0.75);
+  --color-opacity-white-4: rgba(255, 255, 255, 0.04);
+  --color-opacity-white-10: rgba(255, 255, 255, 0.1);
+  --color-opacity-white-30: rgba(255, 255, 255, 0.3);
+  --color-opacity-white-75: rgba(255, 255, 255, 0.75);
+  --color-opacity-house-red-4: rgba(227, 24, 55, 0.04);
+  --color-opacity-house-red-10: rgba(227, 24, 55, 0.1);
+  --color-opacity-house-red-30: rgba(227, 24, 55, 0.3);
+  --color-opacity-house-red-75: rgba(227, 24, 55, 0.75);
+}
