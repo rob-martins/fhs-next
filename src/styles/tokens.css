@@ -38,4 +38,160 @@
   --color-opacity-house-red-10: rgba(227, 24, 55, 0.1);
   --color-opacity-house-red-30: rgba(227, 24, 55, 0.3);
   --color-opacity-house-red-75: rgba(227, 24, 55, 0.75);
+  --color-opacity-success-4: rgba(56, 127, 73, 0.04);
+  --color-opacity-success-10: rgba(56, 127, 73, 0.1);
+  --color-opacity-success-30: rgba(56, 127, 73, 0.3);
+  --color-opacity-success-75: rgba(56, 127, 73, 0.75);
+}
+
+/* ─── Headings ─────────────────────────────────────────────── */
+
+@utility font-heading-1 {
+  font-family: var(--font-main);
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 700;
+
+  @media (min-width: 992px) {
+    font-size: 3rem;
+    line-height: 1.15;
+    font-weight: 800;
+  }
+}
+
+@utility font-heading-2 {
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 700;
+
+  @media (min-width: 992px) {
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+}
+
+@utility font-heading-3 {
+  font-family: var(--font-main);
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+
+  @media (min-width: 992px) {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+}
+
+@utility font-heading-4 {
+  font-family: var(--font-main);
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+
+  @media (min-width: 992px) {
+    font-size: 1.375rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+}
+
+/* ─── Paragraphs ────────────────────────────────────────────── */
+
+@utility font-paragraph-regular-xs {
+  font-family: var(--font-main);
+  font-size: 0.625rem;
+  line-height: 1.5;
+  font-weight: 400;
+  @media (min-width: 992px) { font-size: 0.75rem; }
+}
+
+@utility font-paragraph-regular-sm {
+  font-family: var(--font-main);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  @media (min-width: 992px) { font-size: 0.875rem; }
+}
+
+@utility font-paragraph-regular-md {
+  font-family: var(--font-main);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 400;
+  @media (min-width: 992px) { font-size: 1rem; }
+}
+
+@utility font-paragraph-regular-lg {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  @media (min-width: 992px) { font-size: 1.125rem; }
+}
+
+@utility font-paragraph-semibold-xs {
+  font-family: var(--font-main);
+  font-size: 0.625rem;
+  line-height: 1.5;
+  font-weight: 600;
+  @media (min-width: 992px) { font-size: 0.75rem; }
+}
+
+@utility font-paragraph-semibold-sm {
+  font-family: var(--font-main);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 600;
+  @media (min-width: 992px) { font-size: 0.875rem; }
+}
+
+@utility font-paragraph-semibold-md {
+  font-family: var(--font-main);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 600;
+  @media (min-width: 992px) { font-size: 1rem; }
+}
+
+@utility font-paragraph-semibold-lg {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 600;
+  @media (min-width: 992px) { font-size: 1.125rem; }
+}
+
+@utility font-paragraph-bold-xs {
+  font-family: var(--font-main);
+  font-size: 0.625rem;
+  line-height: 1.5;
+  font-weight: 700;
+  @media (min-width: 992px) { font-size: 0.75rem; }
+}
+
+@utility font-paragraph-bold-sm {
+  font-family: var(--font-main);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 700;
+  @media (min-width: 992px) { font-size: 0.875rem; }
+}
+
+@utility font-paragraph-bold-md {
+  font-family: var(--font-main);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: 700;
+  @media (min-width: 992px) { font-size: 1rem; }
+}
+
+@utility font-paragraph-bold-lg {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 700;
+  @media (min-width: 992px) { font-size: 1.125rem; }
 }
